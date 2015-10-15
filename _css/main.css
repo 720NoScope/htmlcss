@@ -1,1 +1,88 @@
 /* css */
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+
+#page{
+    padding:40px;
+}
+
+#header{
+    background-color:gray;    /* This changes the background color to gray */
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    padding:20px 40px;
+    margin:0px;
+    font-family:Verdana;
+    font-size:60pt;
+}
+
+/* navigation */
+#nav, #nav a{
+    background-color:#ccc;     /* This changes the background color to #ccc */
+    padding:10px;
+    transition:background-color 2s;
+}
+
+#nav a{
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;    /* This removes the line under the link */
+}
+
+#nav a:hover{
+    background-color:#cc6633;    /* This changes the background color to #cc6633 */
+    color:white;
+    transition:background-color 2s;    /* This changes the background color from one color to another when you hover over the selected area */
+}
+
+#content{
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+}
+
+#content h2, #content h3{
+    font-family:arial;
+}
+
+#footer{
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px;
+}
+
+.spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+#page{
+    margin:40px 80px;
+}
+
+#footer a{
+    text-decoration:none;
+    color:white;
+}
+/* end navigation */
+/*
+#header{
+    background-color:gray;
+    width:400px;
+    padding:20px;
+}
+
+#header:hover{
+    background-color:hotpink;
+    transition: background-color 2s;
+}
+*/
